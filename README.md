@@ -1,6 +1,6 @@
 # SistemaNotas
 Descargar los archivos e ir actualizando con la especificacion correspondiente de lo hecho.
-Agregar todos los recursos usados, ademas de la planificacion que se relizo, para empezar hacer el informe. Subir todo lo necesario
+Agregar todos los recursos usados, ademas de la planificacion que se realizo, para empezar hacer el informe. Subir todo lo necesario
 
 Subir el enlace de la maqueta para hacer el diseño de la interfaz al proyecto. 
 
