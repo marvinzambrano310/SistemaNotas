@@ -1,0 +1,27 @@
+C:\Users\Fredd\source\repos\ADMINISTRACION\ADMINISTRACION\bin\Debug\ADMINISTRACION.exe.config
+C:\Users\Fredd\source\repos\ADMINISTRACION\ADMINISTRACION\bin\Debug\ADMINISTRACION.exe
+C:\Users\Fredd\source\repos\ADMINISTRACION\ADMINISTRACION\bin\Debug\ADMINISTRACION.pdb
+C:\Users\Fredd\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.csprojAssemblyReference.cache
+C:\Users\Fredd\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.winmenuad.resources
+C:\Users\Fredd\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.Properties.Resources.resources
+C:\Users\Fredd\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.csproj.GenerateResource.cache
+C:\Users\Fredd\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.exe
+C:\Users\Fredd\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.pdb
+C:\Users\Fredd\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.wininfes.resources
+C:\Users\Fredd\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.wininfdo.resources
+C:\Users\Fredd\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.wininfcur.resources
+C:\Users\Tecnicas de Analisis\source\repos\ADMINISTRACION\ADMINISTRACION\bin\Debug\ADMINISTRACION.exe.config
+C:\Users\Tecnicas de Analisis\source\repos\ADMINISTRACION\ADMINISTRACION\bin\Debug\ADMINISTRACION.exe
+C:\Users\Tecnicas de Analisis\source\repos\ADMINISTRACION\ADMINISTRACION\bin\Debug\ADMINISTRACION.pdb
+C:\Users\Tecnicas de Analisis\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.csprojAssemblyReference.cache
+C:\Users\Tecnicas de Analisis\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.winmenuad.resources
+C:\Users\Tecnicas de Analisis\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.Properties.Resources.resources
+C:\Users\Tecnicas de Analisis\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.wininfcur.resources
+C:\Users\Tecnicas de Analisis\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.wininfdo.resources
+C:\Users\Tecnicas de Analisis\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.wininfes.resources
+C:\Users\Tecnicas de Analisis\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.csproj.GenerateResource.cache
+C:\Users\Tecnicas de Analisis\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.exe
+C:\Users\Tecnicas de Analisis\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.pdb
+C:\Users\Tecnicas de Analisis\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.menuad.resources
+C:\Users\Tecnicas de Analisis\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.winregad.resources
+C:\Users\Tecnicas de Analisis\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.winreges.resources
