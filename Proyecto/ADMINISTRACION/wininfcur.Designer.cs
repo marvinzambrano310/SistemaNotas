@@ -105,6 +105,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);
             this.Name = "wininfcur";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "wininfcur";
             this.Load += new System.EventHandler(this.wininfcur_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

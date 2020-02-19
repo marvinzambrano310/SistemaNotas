@@ -75,6 +75,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SistemaNotasDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="wininformaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wininformaciones.Designer.cs">
+      <DependentUpon>wininformaciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="winmenuad.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,11 +113,41 @@
     <Compile Include="wininfes.Designer.cs">
       <DependentUpon>wininfes.cs</DependentUpon>
     </Compile>
+    <Compile Include="winmenues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="winmenues.Designer.cs">
+      <DependentUpon>winmenues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="winnotases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="winnotases.Designer.cs">
+      <DependentUpon>winnotases.cs</DependentUpon>
+    </Compile>
     <Compile Include="winregad.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="winregad.Designer.cs">
       <DependentUpon>winregad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="winregas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="winregas.Designer.cs">
+      <DependentUpon>winregas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="winregcur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="winregcur.Designer.cs">
+      <DependentUpon>winregcur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="winregdo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="winregdo.Designer.cs">
+      <DependentUpon>winregdo.cs</DependentUpon>
     </Compile>
     <Compile Include="winreges.cs">
       <SubType>Form</SubType>
@@ -130,6 +166,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="menu.resx">
       <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wininformaciones.resx">
+      <DependentUpon>wininformaciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="winmenuad.resx">
       <DependentUpon>winmenuad.cs</DependentUpon>
@@ -155,8 +194,23 @@
     <EmbeddedResource Include="wininfes.resx">
       <DependentUpon>wininfes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="winmenues.resx">
+      <DependentUpon>winmenues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="winnotases.resx">
+      <DependentUpon>winnotases.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="winregad.resx">
       <DependentUpon>winregad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="winregas.resx">
+      <DependentUpon>winregas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="winregcur.resx">
+      <DependentUpon>winregcur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="winregdo.resx">
+      <DependentUpon>winregdo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="winreges.resx">
       <DependentUpon>winreges.cs</DependentUpon>

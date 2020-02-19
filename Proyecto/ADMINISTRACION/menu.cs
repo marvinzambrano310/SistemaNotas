@@ -24,6 +24,7 @@ namespace ADMINISTRACION
 
         private void menu_Load(object sender, EventArgs e)
         {
+            
             CmbUser.Items.Add("ADMINISTRATIVO");
             CmbUser.Items.Add("PROFESOR");
             CmbUser.Items.Add("ESTUDIANTE");
@@ -41,7 +42,17 @@ namespace ADMINISTRACION
                 Form1 p= new Form1();
                 p.Show();
                 this.Hide();
+            }else if (CmbUser.SelectedItem.ToString() == "ESTUDIANTE")
+            {
+                winmenues estudiante = new winmenues();
+                estudiante.Show();
+                this.Hide();
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

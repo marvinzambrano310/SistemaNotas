@@ -251,6 +251,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "wininfdo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sistema Estudiantil de Notas \"SEN\"";
             this.ResumeLayout(false);
             this.PerformLayout();

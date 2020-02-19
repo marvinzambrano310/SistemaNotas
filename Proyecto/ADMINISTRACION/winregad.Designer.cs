@@ -84,6 +84,7 @@
             this.button5.Size = new System.Drawing.Size(161, 85);
             this.button5.TabIndex = 1;
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -94,6 +95,7 @@
             this.button4.Size = new System.Drawing.Size(146, 85);
             this.button4.TabIndex = 0;
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // groupBox1
             // 
@@ -136,6 +138,7 @@
             this.button3.Size = new System.Drawing.Size(161, 81);
             this.button3.TabIndex = 2;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -146,6 +149,7 @@
             this.button2.Size = new System.Drawing.Size(146, 80);
             this.button2.TabIndex = 1;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -167,6 +171,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "winregad";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sistema Estudiantil de Notas \"SEN\"";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();

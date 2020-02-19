@@ -28,5 +28,33 @@ namespace ADMINISTRACION
             m.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            winreges est = new winreges();
+            est.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            winregcur cur = new winregcur();
+            cur.Show();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            winregdo docente = new winregdo();
+            docente.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            winregas asignatura = new winregas();
+            asignatura.Show();
+            this.Hide();
+        }
     }
 }
