@@ -10,26 +10,27 @@ using System.Windows.Forms;
 
 namespace ADMINISTRACION
 {
-    public partial class wininfcur : Form
+    public partial class Form2 : Form
     {
-        public wininfcur()
+        public Form2()
         {
             InitializeComponent();
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            winmenuad m = new winmenuad();
-            m.Show();
+            Form1 f1 = new Form1();
+            
+            f1.Show();
             this.Hide();
         }
 
-        private void wininfcur_Load(object sender, EventArgs e)
+        private void Form2_Load(object sender, EventArgs e)
         {
 
         }

@@ -25,3 +25,29 @@ C:\Users\Tecnicas de Analisis\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Deb
 C:\Users\Tecnicas de Analisis\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.menuad.resources
 C:\Users\Tecnicas de Analisis\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.winregad.resources
 C:\Users\Tecnicas de Analisis\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.winreges.resources
+C:\Users\Fredd\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.menuad.resources
+C:\Users\Fredd\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.winregad.resources
+C:\Users\Fredd\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.winreges.resources
+C:\Users\Fredd\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\Profesor.Form1.resources
+C:\Users\Fredd\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\Profesor.Form2.resources
+C:\Users\Fredd\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\Profesor.Form3.resources
+C:\Users\Fredd\source\repos\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.menu.resources
+D:\Fundamentos\proyecto\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.csprojAssemblyReference.cache
+D:\Fundamentos\proyecto\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.Form1.resources
+D:\Fundamentos\proyecto\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.Form2.resources
+D:\Fundamentos\proyecto\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.Form3.resources
+D:\Fundamentos\proyecto\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.menu.resources
+D:\Fundamentos\proyecto\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.winmenuad.resources
+D:\Fundamentos\proyecto\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.menuad.resources
+D:\Fundamentos\proyecto\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.Properties.Resources.resources
+D:\Fundamentos\proyecto\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.wininfcur.resources
+D:\Fundamentos\proyecto\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.wininfdo.resources
+D:\Fundamentos\proyecto\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.wininfes.resources
+D:\Fundamentos\proyecto\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.winregad.resources
+D:\Fundamentos\proyecto\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.winreges.resources
+D:\Fundamentos\proyecto\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.csproj.GenerateResource.cache
+D:\Fundamentos\proyecto\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.exe
+D:\Fundamentos\proyecto\ADMINISTRACION\ADMINISTRACION\obj\Debug\ADMINISTRACION.pdb
+D:\Fundamentos\proyecto\ADMINISTRACION\ADMINISTRACION\bin\Debug\ADMINISTRACION.exe.config
+D:\Fundamentos\proyecto\ADMINISTRACION\ADMINISTRACION\bin\Debug\ADMINISTRACION.exe
+D:\Fundamentos\proyecto\ADMINISTRACION\ADMINISTRACION\bin\Debug\ADMINISTRACION.pdb
