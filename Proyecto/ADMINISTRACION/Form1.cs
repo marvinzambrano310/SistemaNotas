@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ADMINISTRACION
 {
-    public partial class Form1 : Form
+    public partial class WinDoc : Form
     {
-        public Form1()
+        public WinDoc()
         {
             InitializeComponent();
         }

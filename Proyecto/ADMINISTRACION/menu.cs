@@ -33,7 +33,10 @@ namespace ADMINISTRACION
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            if (CmbUser.SelectedItem.ToString() == "---------------------------------------------")
+            {
+                MessageBox.Show("Debe Seleccionar Un Usuario", "Error de Usuario", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
             if (CmbUser.SelectedItem.ToString()=="ADMINISTRATIVO" && textBox2.Text==TextBoxClave.Text)
             {
                 menuad a = new menuad();
@@ -41,7 +44,7 @@ namespace ADMINISTRACION
                 this.Hide();
             }else if(CmbUser.SelectedItem.ToString() == "PROFESOR")
             {
-                Form1 p= new Form1();
+                WinDoc p= new WinDoc();
                 p.Show();
                 this.Hide();
             }else if (CmbUser.SelectedItem.ToString() == "ESTUDIANTE")

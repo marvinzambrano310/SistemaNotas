@@ -71,10 +71,19 @@
     <Compile Include="menu.Designer.cs">
       <DependentUpon>menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="SistemaNotasDataSet1.cs">
+      <DependentUpon>SistemaNotasDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="SistemaNotasDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SistemaNotasDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WinDocente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinDocente.Designer.cs">
+      <DependentUpon>WinDocente.cs</DependentUpon>
     </Compile>
     <Compile Include="wininformaciones.cs">
       <SubType>Form</SubType>
@@ -144,17 +153,17 @@
     <Compile Include="winregcur.Designer.cs">
       <DependentUpon>winregcur.cs</DependentUpon>
     </Compile>
-    <Compile Include="winregdo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="winregdo.Designer.cs">
-      <DependentUpon>winregdo.cs</DependentUpon>
-    </Compile>
     <Compile Include="winreges.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="winreges.Designer.cs">
       <DependentUpon>winreges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinRegistroDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinRegistroDoc.Designer.cs">
+      <DependentUpon>WinRegistroDoc.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -167,6 +176,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="menu.resx">
       <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinDocente.resx">
+      <DependentUpon>WinDocente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="wininformaciones.resx">
       <DependentUpon>wininformaciones.cs</DependentUpon>
@@ -185,6 +197,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="wininfcur.resx">
       <DependentUpon>wininfcur.cs</DependentUpon>
@@ -210,11 +223,11 @@
     <EmbeddedResource Include="winregcur.resx">
       <DependentUpon>winregcur.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="winregdo.resx">
-      <DependentUpon>winregdo.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="winreges.resx">
       <DependentUpon>winreges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinRegistroDoc.resx">
+      <DependentUpon>WinRegistroDoc.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -239,6 +252,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aplicacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seo-social-web-network-internet_262_icon-icons.com_61518.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
