@@ -45,7 +45,7 @@ namespace ADMINISTRACION
 
         private void button5_Click(object sender, EventArgs e)
         {
-            winregdo docente = new winregdo();
+            WinDoc docente = new WinDoc();
             docente.Show();
             this.Hide();
         }
@@ -55,6 +55,11 @@ namespace ADMINISTRACION
             winregas asignatura = new winregas();
             asignatura.Show();
             this.Hide();
+        }
+
+        private void winregad_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

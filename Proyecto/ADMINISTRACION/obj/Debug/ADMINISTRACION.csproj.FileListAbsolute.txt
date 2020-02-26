@@ -76,3 +76,6 @@ E:\Fundamentos\proyecto\Proyecto\ADMINISTRACION\obj\Debug\ADMINISTRACION.winrega
 E:\Fundamentos\proyecto\Proyecto\ADMINISTRACION\obj\Debug\ADMINISTRACION.winmenues.resources
 E:\Fundamentos\proyecto\Proyecto\ADMINISTRACION\obj\Debug\ADMINISTRACION.wininformaciones.resources
 E:\Fundamentos\proyecto\Proyecto\ADMINISTRACION\obj\Debug\ADMINISTRACION.winnotases.resources
+C:\Users\user\Documents\GitHub\SistemaNotas\Proyecto\ADMINISTRACION\bin\Debug\ADMINISTRACION.exe.config
+C:\Users\user\Documents\GitHub\SistemaNotas\Proyecto\ADMINISTRACION\obj\Debug\ADMINISTRACION.exe
+C:\Users\user\Documents\GitHub\SistemaNotas\Proyecto\ADMINISTRACION\obj\Debug\ADMINISTRACION.pdb

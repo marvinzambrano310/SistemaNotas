@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace ADMINISTRACION
 {
-    public partial class winregdo : Form
+    public partial class WinRegistroDoc : Form
     {
-        public winregdo()
+        public WinRegistroDoc()
         {
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            winregad a = new winregad();
-            a.Show();
-            this.Hide();
         }
     }
 }
