@@ -16,5 +16,18 @@ namespace ADMINISTRACION
         {
             InitializeComponent();
         }
+
+        private void BtnSalir_Click(object sender, EventArgs e)
+        {
+            winregad a = new winregad();
+            a.Show();
+            this.Hide();
+        }
+
+        private void BtnVer_Click(object sender, EventArgs e)
+        {
+            WinDocente a = new WinDocente();
+            a.ShowDialog();
+        }
     }
 }

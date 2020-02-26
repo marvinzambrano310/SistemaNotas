@@ -59,6 +59,8 @@
             this.BtnLimpiar = new System.Windows.Forms.Button();
             this.BtnSalir = new System.Windows.Forms.Button();
             this.BtnIngresar = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Date
@@ -289,6 +291,7 @@
             this.BtnVer.Size = new System.Drawing.Size(49, 52);
             this.BtnVer.TabIndex = 77;
             this.BtnVer.UseVisualStyleBackColor = true;
+            this.BtnVer.Click += new System.EventHandler(this.BtnVer_Click);
             // 
             // BtnLimpiar
             // 
@@ -309,6 +312,7 @@
             this.BtnSalir.Size = new System.Drawing.Size(55, 68);
             this.BtnSalir.TabIndex = 75;
             this.BtnSalir.UseVisualStyleBackColor = true;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
             // BtnIngresar
             // 
@@ -320,11 +324,31 @@
             this.BtnIngresar.TabIndex = 73;
             this.BtnIngresar.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(48, 156);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(93, 13);
+            this.label1.TabIndex = 82;
+            this.label1.Text = "Codigo Asignatura";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(48, 116);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(87, 13);
+            this.label2.TabIndex = 83;
+            this.label2.Text = "Cedula Docente:";
+            // 
             // WinRegistroDoc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.Date);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
@@ -394,5 +418,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

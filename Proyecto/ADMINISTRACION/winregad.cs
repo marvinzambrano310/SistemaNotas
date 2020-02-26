@@ -45,7 +45,7 @@ namespace ADMINISTRACION
 
         private void button5_Click(object sender, EventArgs e)
         {
-            WinDoc docente = new WinDoc();
+            WinRegistroDoc docente = new WinRegistroDoc();
             docente.Show();
             this.Hide();
         }
