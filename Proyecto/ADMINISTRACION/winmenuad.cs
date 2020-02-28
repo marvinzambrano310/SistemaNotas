@@ -24,12 +24,14 @@ namespace ADMINISTRACION
 
         private void button4_Click(object sender, EventArgs e)
         {
-           
+            ConsultarAsig a = new ConsultarAsig();
+            a.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            wininfes f = new wininfes();
+            wininformaciones f = new wininformaciones();
             f.Show();
             this.Hide();
         }

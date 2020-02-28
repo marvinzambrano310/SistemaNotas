@@ -12,6 +12,23 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\user\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,6 +49,18 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A7109DAA5E62019996272630496972937FAAFD45</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ADMINISTRACION_ClaveTemporal.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -47,6 +76,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="conexion.cs" />
+    <Compile Include="ConsultarAsig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarAsig.Designer.cs">
+      <DependentUpon>ConsultarAsig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatosAsig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosAsig.Designer.cs">
+      <DependentUpon>DatosAsig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatosCurso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosCurso.Designer.cs">
+      <DependentUpon>DatosCurso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatosEstudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosEstudiante.Designer.cs">
+      <DependentUpon>DatosEstudiante.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,19 +124,16 @@
     <Compile Include="menu.Designer.cs">
       <DependentUpon>menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="SistemaNotasDataSet1.cs">
-      <DependentUpon>SistemaNotasDataSet1.xsd</DependentUpon>
-    </Compile>
     <Compile Include="SistemaNotasDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SistemaNotasDataSet1.xsd</DependentUpon>
     </Compile>
-    <Compile Include="WinDocente.cs">
+    <Compile Include="WinDatosDoc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WinDocente.Designer.cs">
-      <DependentUpon>WinDocente.cs</DependentUpon>
+    <Compile Include="WinDatosDoc.Designer.cs">
+      <DependentUpon>WinDatosDoc.cs</DependentUpon>
     </Compile>
     <Compile Include="wininformaciones.cs">
       <SubType>Form</SubType>
@@ -153,18 +203,30 @@
     <Compile Include="winregcur.Designer.cs">
       <DependentUpon>winregcur.cs</DependentUpon>
     </Compile>
+    <Compile Include="winregdo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="winregdo.Designer.cs">
+      <DependentUpon>winregdo.cs</DependentUpon>
+    </Compile>
     <Compile Include="winreges.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="winreges.Designer.cs">
       <DependentUpon>winreges.cs</DependentUpon>
     </Compile>
-    <Compile Include="WinRegistroDoc.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="WinRegistroDoc.Designer.cs">
-      <DependentUpon>WinRegistroDoc.cs</DependentUpon>
-    </Compile>
+    <EmbeddedResource Include="ConsultarAsig.resx">
+      <DependentUpon>ConsultarAsig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatosAsig.resx">
+      <DependentUpon>DatosAsig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatosCurso.resx">
+      <DependentUpon>DatosCurso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatosEstudiante.resx">
+      <DependentUpon>DatosEstudiante.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -177,8 +239,8 @@
     <EmbeddedResource Include="menu.resx">
       <DependentUpon>menu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WinDocente.resx">
-      <DependentUpon>WinDocente.cs</DependentUpon>
+    <EmbeddedResource Include="WinDatosDoc.resx">
+      <DependentUpon>WinDatosDoc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="wininformaciones.resx">
       <DependentUpon>wininformaciones.cs</DependentUpon>
@@ -223,12 +285,13 @@
     <EmbeddedResource Include="winregcur.resx">
       <DependentUpon>winregcur.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="winregdo.resx">
+      <DependentUpon>winregdo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="winreges.resx">
       <DependentUpon>winreges.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WinRegistroDoc.resx">
-      <DependentUpon>WinRegistroDoc.cs</DependentUpon>
-    </EmbeddedResource>
+    <None Include="ADMINISTRACION_ClaveTemporal.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -254,10 +317,43 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\seo-social-web-network-internet_262_icon-icons.com_61518.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\aplicacion.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\seo-social-web-network-internet_262_icon-icons.com_61518.png" />
+    <None Include="Resources\actualizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_delete_256_icon-icons.com_75995.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\savetheapplication_guardar_2958.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="ADMINISTRACION.pdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

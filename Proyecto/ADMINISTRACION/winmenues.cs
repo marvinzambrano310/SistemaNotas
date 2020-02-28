@@ -26,7 +26,7 @@ namespace ADMINISTRACION
 
         private void button1_Click(object sender, EventArgs e)
         {
-            wininformaciones estudiante = new wininformaciones();
+            wininfes estudiante = new wininfes();
             estudiante.Show();
             this.Hide();
         }

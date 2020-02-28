@@ -33,21 +33,18 @@ namespace ADMINISTRACION
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (CmbUser.SelectedItem.ToString() == "---------------------------------------------")
-            {
-                MessageBox.Show("Debe Seleccionar Un Usuario", "Error de Usuario", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-            }
+
             if (CmbUser.SelectedItem.ToString()=="ADMINISTRATIVO" && textBox2.Text==TextBoxClave.Text)
             {
                 menuad a = new menuad();
                 a.Show();
                 this.Hide();
-            }else if(CmbUser.SelectedItem.ToString() == "PROFESOR")
+            }else if(CmbUser.SelectedItem.ToString() == "PROFESOR" && textBox2.Text == TextBoxClave.Text)
             {
-                WinDoc p= new WinDoc();
+                Form1 p= new Form1();
                 p.Show();
                 this.Hide();
-            }else if (CmbUser.SelectedItem.ToString() == "ESTUDIANTE")
+            }else if (CmbUser.SelectedItem.ToString() == "ESTUDIANTE" && textBox2.Text == TextBoxClave.Text)
             {
                 winmenues estudiante = new winmenues();
                 estudiante.Show();
@@ -62,18 +59,77 @@ namespace ADMINISTRACION
 
         private void button3_Click(object sender, EventArgs e)
         {
-            SqlConnection cadena = new SqlConnection("data source = femm.database.windows.net,1433; initial catalog = SistemaNotas; user id = Marvin; password = Fundamentos28");
-            cadena.Open();
-            string clave = textBox2.Text;
-            string query = "select CLAVEADMIN FROM ADMINISTRADOR WHERE CLAVEADMIN='" + clave+"'";
-            SqlCommand cmd = new SqlCommand(query, cadena);
-            SqlDataReader registro = cmd.ExecuteReader();
-            if (registro.Read())
+
+            if (CmbUser.SelectedItem.ToString() == "ADMINISTRATIVO")
             {
-                TextBoxClave.Text = registro["CLAVEADMIN"].ToString();
+                SqlConnection cadena = new SqlConnection("data source = femm.database.windows.net,1433; initial catalog = SistemaNotas; user id = Marvin; password = Fundamentos28");
+                cadena.Open();
+                string clave = textBox2.Text;
+                string query = "select CLAVEADMIN FROM ADMINISTRADOR WHERE CLAVEADMIN='" + clave + "'";
+                SqlCommand cmd = new SqlCommand(query, cadena);
+                SqlDataReader registro = cmd.ExecuteReader();
+                if (registro.Read())
+                {
+                    TextBoxClave.Text = registro["CLAVEADMIN"].ToString();
+                    button1.Visible = true;
+                    button3.Visible = false;
+                }
+                else
+                {
+                    MessageBox.Show("No se ha encontrado el registro", "Sistema Estudiantil de Notas");
+                    textBox2.Text = null;
+                    textBox2.Focus();
+                }
+                
             }
-            button1.Visible = true;
-            button3.Visible = false;
+            else if (CmbUser.SelectedItem.ToString() == "PROFESOR")
+            {
+                SqlConnection cadena = new SqlConnection("data source = femm.database.windows.net,1433; initial catalog = SistemaNotas; user id = Marvin; password = Fundamentos28");
+                cadena.Open();
+                string clave = textBox2.Text;
+                string query = "select CLAVEDOC FROM DOCENTE WHERE CLAVEDOC='" + clave + "'";
+                SqlCommand cmd = new SqlCommand(query, cadena);
+                SqlDataReader registro = cmd.ExecuteReader();
+                if (registro.Read())
+                {
+                    TextBoxClave.Text = registro["CLAVEDOC"].ToString();
+                    button1.Visible = true;
+                    button3.Visible = false;
+                }
+                else
+                {
+                    MessageBox.Show("No se ha encontrado el registro", "Sistema Estudiantil de Notas");
+                    textBox2.Text = null;
+                    textBox2.Focus();
+                }
+                
             }
+            else if (CmbUser.SelectedItem.ToString() == "ESTUDIANTE")
+            {
+                SqlConnection cadena = new SqlConnection("data source = femm.database.windows.net,1433; initial catalog = SistemaNotas; user id = Marvin; password = Fundamentos28");
+                cadena.Open();
+                string clave = textBox2.Text;
+                string query = "select CLAVEEST FROM ESTUDIANTE WHERE CLAVEEST='" + clave + "'";
+                SqlCommand cmd = new SqlCommand(query, cadena);
+                SqlDataReader registro = cmd.ExecuteReader();
+                if (registro.Read())
+                {
+                    TextBoxClave.Text = registro["CLAVEEST"].ToString();
+                    button1.Visible = true;
+                    button3.Visible = false;
+                }
+                else
+                {
+                    MessageBox.Show("No se ha encontrado el registro", "Sistema Estudiantil de Notas");
+                    textBox2.Text = null;
+                    textBox2.Focus();
+                }
+                
+                
+            }
+           
+
+
+        }
     }
 }

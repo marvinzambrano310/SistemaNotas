@@ -24,7 +24,7 @@ namespace ADMINISTRACION
 
         private void button1_Click(object sender, EventArgs e)
         {
-            WinDoc f1 = new WinDoc();
+            Form1 f1 = new Form1();
             
             f1.Show();
             this.Hide();
